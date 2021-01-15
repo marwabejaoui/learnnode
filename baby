@@ -1,0 +1,18 @@
+let sum = 0
+for (let i = 2; i < (process.argv).lenght; i++){
+    sum += Number(process.argv[i]);
+
+}
+console.log(process.argv)
+
+
+
+////////clg
+PS C:\Users\Marwass\projects> node baby-step.js 1 2 3 
+[
+  'C:\\Program Files\\nodejs\\node.exe',
+  'C:\\Users\\Marwass\\projects\\baby-step.js',
+  '1',
+  '2',
+  '3'
+]
